@@ -1,0 +1,136 @@
+// font-family: 'Waiting for the Sunrise', cursive;
+// font-family: 'Finger Paint', cursive;
+// font-family: 'Barrio', cursive;
+// font-family: 'Open Sans', sans-serif;
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+// body {
+//     // height: 1400px;
+// }
+.adv {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(8, 160, 255);
+}
+
+.navbar {
+    box-shadow: 0 8px 20px rgba(128, 128, 128, 0.089);
+}
+
+#sldr-img-items>div.owl-nav>button.owl-prev,
+#sldr-img-items>div.owl-nav>button.owl-next {
+    background: none;
+    font-size: 25px;
+}
+
+#sldr-img-items>div.owl-nav>button.owl-prev:hover,
+#sldr-img-items>div.owl-nav>button.owl-next:hover {
+    color: #ffca2c;
+}
+
+#ShowPostArea,
+#PostLink {
+    height: 700px;
+}
+
+.card-link {
+    height: 300px;
+    border: none;
+}
+
+.card-header {
+    background: none;
+}
+
+.x {
+    text-decoration: none;
+}
+
+.x:hover {
+    opacity: .5;
+    text-decoration: underline;
+    transition: all 5s ease;
+}
+
+#ShowPostArea .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-post {
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    // background-color: palegoldenrod;
+}
+
+#contact {
+    height: 520px;
+}
+
+.contact-form {
+    height: 100%;
+    max-width: 800px;
+}
+
+#message {
+    resize: none;
+    height: 130px;
+}
+
+#backtotop {
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    display: none;
+}
+
+.form-control::placeholder {
+    color: rgba(50, 52, 56, 0.671);
+}
+
+footer {
+    min-height: 150px;
+    // border: 1px solid cornflowerblue;
+    // background-color: cornflowerblue;
+}
+
+footer {
+    box-shadow: 0px -5px 20px rgba(156, 149, 149, 0.123);
+}
+
+.copyright {
+    height: 70px;
+}
+
+#h {
+    height: 100px;
+}
+
+.list-item>a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.list-item>a:hover {
+    text-decoration: underline;
+    opacity: .5;
+}
+
+.f {
+    font-size: 25px;
+}
+
+@media (max-width: 345px) {
+    #search {
+        width: 130px;
+    }
+    #copyright-text {
+        font-size: 15px;
+    }
+}

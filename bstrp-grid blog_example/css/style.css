@@ -1,0 +1,150 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.adv {
+  height: 80px;
+  width: 100%;
+  background-color: #08a0ff;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 8px 20px rgba(128, 128, 128, 0.089);
+          box-shadow: 0 8px 20px rgba(128, 128, 128, 0.089);
+}
+
+#sldr-img-items > div.owl-nav > button.owl-prev,
+#sldr-img-items > div.owl-nav > button.owl-next {
+  background: none;
+  font-size: 25px;
+}
+
+#sldr-img-items > div.owl-nav > button.owl-prev:hover,
+#sldr-img-items > div.owl-nav > button.owl-next:hover {
+  color: #ffca2c;
+}
+
+#ShowPostArea,
+#PostLink {
+  height: 700px;
+}
+
+.card-link {
+  height: 300px;
+  border: none;
+}
+
+.card-header {
+  background: none;
+}
+
+.x {
+  text-decoration: none;
+}
+
+.x:hover {
+  opacity: .5;
+  text-decoration: underline;
+  -webkit-transition: all 5s ease;
+  transition: all 5s ease;
+}
+
+#ShowPostArea .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-post {
+  height: 400px;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+#contact {
+  height: 520px;
+}
+
+.contact-form {
+  height: 100%;
+  max-width: 800px;
+}
+
+#message {
+  resize: none;
+  height: 130px;
+}
+
+#backtotop {
+  position: fixed;
+  bottom: 45px;
+  right: 20px;
+  display: none;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(50, 52, 56, 0.671);
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgba(50, 52, 56, 0.671);
+}
+
+.form-control::-ms-input-placeholder {
+  color: rgba(50, 52, 56, 0.671);
+}
+
+.form-control::placeholder {
+  color: rgba(50, 52, 56, 0.671);
+}
+
+footer {
+  min-height: 150px;
+}
+
+footer {
+  -webkit-box-shadow: 0px -5px 20px rgba(156, 149, 149, 0.123);
+          box-shadow: 0px -5px 20px rgba(156, 149, 149, 0.123);
+}
+
+.copyright {
+  height: 70px;
+}
+
+#h {
+  height: 100px;
+}
+
+.list-item > a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.list-item > a:hover {
+  text-decoration: underline;
+  opacity: .5;
+}
+
+.f {
+  font-size: 25px;
+}
+
+@media (max-width: 345px) {
+  #search {
+    width: 130px;
+  }
+  #copyright-text {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

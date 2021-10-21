@@ -1,0 +1,10 @@
+img {
+    opacity: 0;
+    animation: 1s show both;
+}
+
+@keyframes show {
+    100% {
+        opacity: 1;
+    }
+}

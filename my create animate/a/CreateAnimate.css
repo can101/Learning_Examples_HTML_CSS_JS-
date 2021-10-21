@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.animation-infinile {
+    animation-play-state: running 3s, paused 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: crimson; */
+    height: 100vh;
+    width: 100%;
+    /* background: cornflowerblue; */
+}

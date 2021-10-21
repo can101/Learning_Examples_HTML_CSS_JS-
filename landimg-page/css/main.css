@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* nav-bar section */
+
+#nav-bar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar ul li a {
+    padding: 0.5rem;
+}
+
+#nav-bar ul li a:hover {
+    background-color: #336ea2;
+    border-radius: 4px;
+}
+
+
+/* home section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid rgb(97, 97, 97);
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+
+/* traning */
+
+#trainig {
+    color: #fff;
+    padding: 1rem;
+}
+
+#trainig .items {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+#trainig .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#trainig .items .item:hover {
+    color: skyblue;
+    opacity: 0.6;
+}
+
+
+/* courses */
+
+#courses {
+    color: #333;
+    padding: 1rem;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.courses .course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses .course .course-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.courses .course .course-image img {
+    border-radius: 7px;
+}
+
+.courses .course .course-image span {
+    background: rgb(241, 21, 21);
+    padding: 0.25rem;
+    color: #FFF;
+    border-radius: 7px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.courses .course .course-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    /* margin-bottom: 0.25rem; */
+}
+
+.courses .course .course-info .discription {
+    letter-spacing: 1.2px;
+    /* margin-bottom: 0.25px;
+    opacity: 0.6; */
+}
+
+.courses .course .course-info .instructor {
+    font-size: 0.8rem;
+    /* margin-bottom: 0.25px;
+    opacity: 0.6; */
+}
+
+.courses .course .course-info .instructor {
+    font-size: 0.8rem;
+    /* margin-bottom: 0.25px;
+    opacity: 0.6; */
+}
+
+
+/* button */
+
+button {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+}
+
+
+/* contact */
+
+#contact {
+    color: #FFF;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul a {
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+#contact .contact-form ul a:hover {
+    opacity: 0.35;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #336ea2;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 3px solid greenyellow 8px;
+}

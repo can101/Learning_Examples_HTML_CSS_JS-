@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 120px;
+            height: 120px;
+            color: #fff;
+        }
+        
+        .mini-box {
+            width: 30px;
+            height: 30px;
+            background: gray;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        
+        #first {
+            background: red;
+        }
+        
+        #second {
+            background: blue;
+            position: relative;
+        }
+        
+        #third {
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box" id="first">box1</div>
+    <div class="box" id="second">box2
+        <div class="mini-box"></div>
+    </div>
+    <div class="box" id="third">box3</div>
+
+
+
+
+</body>
+
+</html>

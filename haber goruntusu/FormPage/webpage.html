@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <title>Form Page</title>
+</head>
+
+<body>
+    <input type="hidden" value="s-500-machina" name="product">
+    <form action="https//:www.google.com/post" method="POST">
+
+        <div class="form-row">
+            <label for="name">Name</label >
+            <input name="name" type="text"  id="name"  value="Enter Your Name ">
+        </div>
+<!-- recuried= zorunlu alan doldurmak
+     checked=secili olarak geliyor
+-->
+<div class="form-row">
+    <label for="tel">Telephon Number</label>
+            <input name="tel" type="tel" id="tel">
+        </div>
+        <div class="form-row">
+            <label for="email">E-mail</label>
+            <input name="email" type="email" id="email">
+        </div>
+        <div class="form-row">
+            <label for="message">message</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+        </div>
+        <div class="form-row">
+            <label for="location">Contury</label>
+            <select name="Contury" id="Contury">
+                <option value="İstanbul">İstanbul</option>
+                <option value="Ankara">Ankara</option>
+                <option value="İzmir">İzmir</option>
+                <option value="Gaziantep">Gaziantep</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <p>You are Like Color</p>
+            <label><input type="radio" name="color" value="red" checked />red</label>
+            <label> <input type="radio" name="color" value="green" />green</label>
+            <label> <input type="radio" name="color" value="yellow" />yellow</label>
+        </div>
+        <div class="form-row">
+            <button type="reset">Reset</button>
+            <Button type="submit">Sent To</Button>
+        </div>
+    </form>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Styling Forms</title>
+    <style>
+        /*
+		  input
+		
+		  color:#495057;
+		  background-color:#fff;
+		  border-color:#ced4da;  		  
+		  border-color:#80bdff;(focus)
+		  font-size:16px;
+		
+		  button
+		
+		  color:#fff;
+		  background-color:#007bff;
+		  border-color:#007bff;		  
+		  
+		  background-color:#0069d9;
+		  border-color:#0062cc;
+		*/
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 20px;
+        }
+        
+        #form-1 {
+            background: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 7px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+        
+        .form-control:focus {
+            border-color: #80bdff;
+            outline: 0;
+        }
+        
+        .form-group {
+            margin-bottom: 5px;
+        }
+        
+        label {
+            margin-bottom: 4px;
+            display: inline-block;
+        }
+        
+        .btn {
+            padding: 6px 12px;
+            border-radius: 4px;
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+            border: 1px solid #007bff;
+        }
+        
+        .btn:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+        
+        .col-25 {
+            float: left;
+            width: 25%;
+        }
+        
+        .col-75 {
+            float: left;
+            width: 75%;
+        }
+        
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form-1">
+        <div class="form-group clearfix">
+            <div class="col-25"> <label for="fullname">Fullname</label></div>
+            <div class="col-75"> <input type="text" name="fullname" class="form-control"></div>
+        </div>
+        <div class="form-group">
+            <div class="col-25"> <label for="email">Email</label></div>
+            <div class="col-75"> <input type="text" name="email" class="form-control"></div>
+        </div>
+        <div class="form-group">
+            <div class="col-25"> <label for="message">Message</label></div>
+            <div class="col-75"> <textarea name="message" class="form-control"></textarea></div>
+        </div>
+        <div class="form-group">
+            <div class="col-25"> <label for="contry">Contry</label></div>
+            <div class="col-75"> <select name="contry" class="form-control">
+	<option value="turkey">Turkey</option>
+	<option value="Almanya">Almanya</option>
+			</select></div>
+        </div>
+        <div class="form-group"><input type="submit" value="Submint" class="btn" style="margin-left: 25%;"></div>
+    </div>
+
+    <br>
+    <hr><br>
+    <div id="form-2">
+        <div class="form-group">
+            <div> <label for="fullname">Fullname</label>
+                <input type="text" name="fullname" class="form-control">
+            </div>
+            <div class="form-group">
+                <div> <label for="email">Email</label>
+                    <input type="text" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <div> <label for="message">Message</label>
+                        <textarea name="message" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div> <label for="contry">Contry</label>
+                            <select name="contry" class="form-control">
+<option value="turkey">Turkey</option>
+<option value="Almanya">Almanya</option>
+		</select></div>
+                        <div class="form-group"><input type="submit" value="Submint" class="btn"></div>
+                    </div>
+
+
+</body>
+
+</html>

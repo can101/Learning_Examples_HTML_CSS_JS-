@@ -1,0 +1,19 @@
+[{
+    "firstname": "can",
+    "lastname": "celik",
+    "age": 20,
+    "retired": false
+
+}, {
+    "firstname": "emre",
+    "lastname": "celik",
+    "age": 20,
+    "retired": false
+
+}, {
+    "firstname": "efe",
+    "lastname": "celik",
+    "age": 20,
+    "retired": false
+
+}]

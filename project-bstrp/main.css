@@ -1,0 +1,62 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Nerko One', cursive;
+    }
+    
+    .letter-spacing {
+        letter-spacing: 3px;
+        font-weight: 900;
+    }
+    
+    .jumbotron {
+        background-image: url(img/1920x1080-desktop-mobile-karriere-berufserfahrene-sdc-981.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        opacity: .77;
+    }
+    
+    .jumbotron:hover,
+    .text-decricption,
+    h1,
+    h2 {
+        opacity: 1;
+        transition: all 1.5s ease-in-out;
+        color: black;
+    }
+    
+    .text-decricption {
+        position: static;
+        padding-top: 13rem;
+        letter-spacing: 3px;
+    }
+    
+    .nav-item {
+        font-size: x-large;
+        letter-spacing: 6px;
+    }
+    
+    .h {
+        font-size: 30px;
+    }
+    
+    .h1 {
+        font-size: 100px;
+    }
+    
+    .h2 {
+        font-size: 40px;
+    }
+    
+    .about-page {
+        height: 500px important;
+    }
+    
+    .boxe1 {
+        top: -4px;
+        background-color: blue;
+        height: 200px;
+        width: 100%;
+    }

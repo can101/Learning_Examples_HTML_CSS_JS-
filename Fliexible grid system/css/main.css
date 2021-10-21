@@ -1,0 +1,46 @@
+body {
+    margin: 16px;
+}
+
+.box {
+    width: 100%;
+    height: 56px;
+    background: rgb(7, 127, 175);
+    border-radius: 8px;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 56px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 16px;
+    overflow-x: hidden;
+}
+
+.xl-width-300 {
+    width: 300px;
+}
+
+
+/* xl */
+
+@media (max-width: 1024px) {
+    /* lg */
+    .box {
+        background: rgb(214, 72, 72);
+    }
+}
+
+@media (max-width: 768px) {
+    /* md */
+    .box {
+        background: rgb(115, 202, 134);
+    }
+}
+
+@media (max-width: 667px) {
+    /* sm */
+    .box {
+        background: rgb(219, 78, 120);
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Media Object</title>
+
+    <style>
+        * {
+            margin: 8px;
+            padding: 0;
+        }
+        
+        img {
+            width: 100px;
+            margin-right: 16px;
+        }
+        
+        .media {
+            display: flex;
+            align-items: flex-start;
+            background-color: antiquewhite;
+            max-width: 500px;
+            padding: 16px;
+            border-radius: 3px;
+            margin: 20px;
+        }
+        
+        p {
+            display: block;
+            align-items: flex-start;
+        }
+        
+        .media-heading {
+            margin: 0 0 8px;
+        }
+        
+        .media:nth-child(2) img {
+            order: 2;
+        }
+        
+        .media-inner {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="media">
+        <img src="avatar.png" alt="">
+        <div class="media-body ">
+            <h3 class="media-heading">Lorem ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae officiis commodi quo eligendi placeat, iure provident fuga quia iste.</p>
+
+        </div>
+    </div>
+
+    <div class="media">
+        <img src="avatar.png" alt="">
+        <div class="media-body ">
+            <h3 class="media-heading">Lorem ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae officiis commodi quo eligendi placeat, iure provident fuga quia iste.</p>
+        </div>
+    </div>
+
+    <div class="media xee">
+        <div class="media-body ">
+            <img src="avatar.png" alt="">
+            <h3 class="media-heading">Lorem ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="media media-inner">
+            <div class="media-body ">
+                <img src="avatar.png" alt="">
+                <h3 class="media-heading">Lorem ipsum.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

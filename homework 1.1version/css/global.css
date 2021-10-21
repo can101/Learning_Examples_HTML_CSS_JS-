@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1600;
+    margin: 0px auto;
+}
+
+#blog-post-container {
+    width: 75%;
+    float: left;
+}
+
+.blog-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #aaa;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.blog-title a:hover {
+    color: rgb(255, 0, 0);
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: opacitiy 0.3s linear;
+}
+
+img:hover {
+    opacity: .75;
+}
+
+.blog-postt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.date {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+    transition: all 150ms ease-in;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr.side-bar-hr {
+    display: block;
+    width: 9rem;
+    height: 3px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.fab,
+.fas {
+    color: #000;
+    opacity: 0.36;
+}
+
+.fab:hover,
+.fas:hover {
+    color: #000;
+    opacity: 1;
+}

@@ -1,0 +1,30 @@
+/* xl */
+
+.box {
+    width: 100%;
+    height: 56px;
+    background: rgba(131, 126, 126, 0.856);
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 1024px) {
+    /* lg */
+    .box {
+        background: rgba(87, 182, 166, 0.856);
+    }
+}
+
+@media (max-width: 768px) {
+    /* md */
+    .box {
+        background: rgba(22, 11, 172, 0.856);
+    }
+}
+
+@media (max-width: 667px) {
+    /* sm */
+    .box {
+        background: rgba(230, 22, 150, 0.856);
+    }
+}

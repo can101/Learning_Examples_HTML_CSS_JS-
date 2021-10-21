@@ -1,0 +1,18 @@
+#nav-bar {
+    flex-direction: column;
+    padding: 0.55rem 0;
+    overflow: hidden;
+    height: 80px;
+}
+
+#trainig .items {
+    flex-direction: column;
+}
+
+#trainig .items .item {
+    width: 100%;
+}
+
+.courses .course {
+    flex-direction: column;
+}
